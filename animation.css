@@ -1,0 +1,9 @@
+.white1 {animation: tempo calc((1s/70)*4*4*4*4) linear calc((1s/70)*4*4*4) infinite;}
+.white2 {animation: tempo calc((1s/70)*4*4*4*4) linear calc((1s/70)*4*4*4*2) infinite;}
+.white3 {animation: tempo calc((1s/70)*4*4*4*4) linear calc((1s/70)*4*4*4*3) infinite;}
+.white4 {animation: tempo calc((1s/70)*4*4*4*4) linear calc((1s/70)*4*4*4*4) infinite;}
+@keyframes tempo {
+    0% {opacity: .2;}
+    25% {opacity: 0;}
+    100% {opacity: 0;}
+}
