@@ -9,14 +9,18 @@
     display: grid;
     grid-template: 100%/5.5% 1fr 5% 1fr 5% 1fr 5% 1fr 5.5%;
 }
+.line {
+    text-align: center;
+}
 p {
     color: #fff;
-    font-family: "M PLUS Rounded 1c", sans-serif;
-    font-weight: 400;
+    font-family: "Noto Serif JP", serif;
+    font-optical-sizing: auto;
     font-style: normal;
-    text-align: center;
     font-size: 3vh;
     line-height: 12vh;
+    display: inline-block;
+    margin: 0 .5vh;
 }
 .box {
     height: 12%;
@@ -35,4 +39,28 @@ p {
     background-color: #fff;
     opacity: 0;
     height: 100vh;
+}
+
+
+.space {
+    margin: 15vh 0;
+    height: 62vh;
+    background-image:
+    linear-gradient(66.5deg, transparent 75%, #333 75%, #333 76%, transparent 76%),
+    linear-gradient(-66.5deg, transparent 75%, #333 75%, #333 76%, transparent 76%),
+    linear-gradient(66.5deg, transparent 49.5%, #333 49.5%, #333 50.5%, transparent 50.5%),
+    linear-gradient(-66.5deg, transparent 49.5%, #333 49.5%, #333 50.5%, transparent 50.5%),
+    linear-gradient(66.5deg, transparent 24%, #333 24%, #333 25%, transparent 25%),
+    linear-gradient(-66.5deg, transparent 24%, #333 24%, #333 25%, transparent 25%),
+    linear-gradient(77.8deg, transparent 59.5%, #333 59.5%, #333 61%, transparent 61%),
+    linear-gradient(-77.8deg, transparent 59.5%, #333 59.5%, #333 61%, transparent 61%),
+    linear-gradient(77.8deg, transparent 38.5%, #333 38.5%, #333 40%, transparent 40%),
+    linear-gradient(-77.8deg, transparent 38.5%, #333 38.5%, #333 40%, transparent 40%),
+    linear-gradient(82deg, transparent 49.5%, #333 49.5%, #333 51.5%, transparent 51.5%),
+    linear-gradient(-82deg, transparent 49.5%, #333 49.5%, #333 51.5%, transparent 51.5%),
+    linear-gradient(transparent 0%, #333 0%, #333 0.5%, transparent 0.5%),
+    linear-gradient(transparent 33%, #333 33%, #333 33.5%, transparent 33.5%),
+    linear-gradient(transparent 67%, #333 67%, #333 67.5%, transparent 67.5%),
+    linear-gradient(transparent 99.5%, #333 99.5%, #333 100%, transparent 100%);
+    /*background-color: aqua;*/
 }
