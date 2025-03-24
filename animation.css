@@ -42,31 +42,6 @@
                      calc(2804s/30),
                      calc(3215s/30);
 }
-#bo11>.code {
-    animation-name: scene,scene,scene,scene,scene,scene,scene,scene,scene,opacity1;
-    animation-duration: calc((256s/74.7)*3),
-                        calc((64s/74.7)*3.5),
-                        calc((256s/74.7)*2),
-                        calc((256s/74.7)*3),
-                        calc((256s/74.7)*2),
-                        calc((256s/74.7)),
-                        calc((256s/74.7)*3),
-                        calc((256s/74.7)*3),
-                        calc((256s/74.7)*2),
-                        1s;
-    animation-delay: calc(335s/30),
-                     calc(746s/30),
-                     calc(849s/30),
-                     calc(1158s/30),
-                     calc(1672s/30),
-                     calc(1981s/30),
-                     calc(2392s/30),
-                     calc(2804s/30),
-                     calc(3215s/30),
-                     calc(438s/30);
-    animation-fill-mode: none,none,none,none,none,none,none,none,none,forwards;
-}
-
 #bo12 {animation-name: scene,scene,scene,scene,scene,scene,scene,scene,scene;
        animation-duration: calc((256s/74.7)),
                            calc((256s/74.7)),
@@ -85,4 +60,15 @@
                         calc(2084s/30),
                         calc(2701s/30),
                         calc(3112s/30),
-                        calc(3524s/30);}
+                        calc(3524s/30);
+}
+#bo13 {
+    animation-name: scene,scene;
+    animation-duration: calc((256s/74.7)),calc((256s/74.7));
+    animation-delay: calc(1467s/30),calc(3421s/30);
+}
+#bo14{
+    animation-name: scene,scene;
+    animation-duration: calc((256s/74.7)),calc((256s/74.7));
+    animation-delay: calc(2288s/30),calc(3625s/30);
+}
