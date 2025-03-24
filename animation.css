@@ -17,7 +17,6 @@
 .kasi {opacity: 0;}
 .box {animation:linear 1}
 @keyframes scene {0%,100% {background: #fff; color: #000;}}
-
 @keyframes opacity1 {0%,100% {opacity: 1;}}
 
 #bo11 {
@@ -68,3 +67,22 @@
     animation-fill-mode: none,none,none,none,none,none,none,none,none,forwards;
 }
 
+#bo12 {animation-name: scene,scene,scene,scene,scene,scene,scene,scene,scene;
+       animation-duration: calc((256s/74.7)),
+                           calc((256s/74.7)),
+                           calc((256s/74.7)),
+                           calc((256s/74.7)),
+                           calc((256s/74.7)),
+                           calc((256s/74.7)*2),
+                           calc((256s/74.7)),
+                           calc((256s/74.7)),
+                           calc((256s/74.7));
+       animation-delay: calc(232s/30),
+                        calc(644s/30),
+                        calc(1055s/30),
+                        calc(1570s/30),
+                        calc(1878s/30),
+                        calc(2084s/30),
+                        calc(2701s/30),
+                        calc(3112s/30),
+                        calc(3524s/30);}
